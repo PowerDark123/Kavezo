@@ -8,3 +8,28 @@ body{
     background-position: center center;
     height: 100vw;
 }
+.intro img{
+    max-height: 3rem;
+}
+.navbar img{
+    height: 2rem;
+}
+@media screen and (min-width: 600px){
+    
+    .intro{
+        background-color: rgb(0,0,0,0.5);
+        position: fixed;
+        top:50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+}
+}
+@media screen and (max-width: 599px){
+    
+    .intro{
+        background-color: rgb(0,0,0,0.5);
+        position: fixed;
+        top: 50px;
+        left: 10px;
+    }
+    }
